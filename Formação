@@ -1,0 +1,7 @@
+echo "# Formação" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ProfLucas1914/Formação.git
+git push -u origin main
